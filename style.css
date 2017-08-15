@@ -1,0 +1,597 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: "Open Sans Light", sans-serif;
+	font-size:15px;
+	background-color:#F2EBE5;
+	margin:auto;
+	text-align:center;
+}
+@font-face {
+   font-family: 'Open Sans Light';
+   font-style: normal;
+   font-weight: 300;
+   src:url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+.header {
+    top: 0;
+    position: fixed;
+    padding: 10px 0 5px 0;
+    border-bottom: solid 2px pink;
+    background-image: url(../assets/patas.png);
+    min-height: 120px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+header #logo {
+    height: 120px;
+    width: 150px;
+    z-index:10;
+}
+
+
+a{
+	text-decoration:none;
+}
+h1{
+	margin-top: 0%;
+	text-align: center;
+	color: black;
+	background-color: #F2EBE5;
+}
+.logo img{
+	width:9%;
+	height:85%;
+	position: absolute;
+	left:0;
+	top:3%;
+	overflow:hidden;
+}
+.logo{
+	text-align:right;
+
+}
+.link{
+	font-size:25px;
+	color:#000000;
+	background-color: #abcfc5;
+	border-radius:10px;
+	margin:10px;
+	padding: 0 10px 0 10px;
+}
+li{
+	list-style-type:none;
+	display: inline;
+}
+li a:hover {
+    background-color:#add8e6;
+    color: #6D6D6D;
+    border-bottom:3px solid #e6add8;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+footer{
+    position: fixed;
+    bottom:0;
+    height:30px;
+    width:100%;
+	background-color:#83b3a6;
+	border-top:2px solid pink;
+	z-index:99;
+}
+footer p{
+	text-align:center;
+}
+main {
+    background-color: #ffaaec;
+    margin: 100px auto;
+	background-color: transparent;
+}
+main div{
+	text-align: center;
+}
+main ul{
+	text-align:center;
+
+
+}
+
+.content h1{
+	border-bottom: solid 2px #dcd5cd;
+	border-collapse: separate;
+	border-spacing:2px 2px;
+}
+.content h6{
+	font-size:15px;
+}
+.apresentacao{
+	margin-top:10%;
+
+}
+.apresentacao h1{
+	margin-top: 0%;
+	text-align: center;
+	color: black;
+	background-color: #F2EBE5;
+}
+.apresentacao h3{
+	margin-top: -1%;
+	text-align: center;
+	color: black;
+}
+.imagem img{
+	position:absolute;
+	border-radius:50%;
+	display: inline-block;
+	margin:0 16px 16px 0;
+	padding:3px;
+	background-color:#f2ebe3;
+	border:1px solid #dcd5cd;
+
+}
+.formulario{
+	width:auto;
+	display:flex;
+	align-items: center;
+  justify-content: center;
+
+}
+.formulario2{
+  width:auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.legendacontato{
+  margin-right:10px;
+  margin-left:10px;
+  font-weight:normal;
+  font-size:30px;
+}
+.formulario2 p{
+  text-align:center;
+  font-size:20px;
+}
+fieldset{
+	text-align:left;
+  padding-right:100px;
+	padding-left:100px;
+	border: 4px double pink;
+	border-left:none;
+	border-right:none;
+}
+input[type=text] {
+	font-family:"Open Sans Light";
+	margin:2px;
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=password] {
+	font-family:"Open Sans Light";
+	margin:2px;
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=email] {
+	font-family:"Open Sans Light";
+	margin:2px;
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=password]:focus {
+    border-color:pink;
+}
+
+input[type=text]:focus {
+    border-color:pink;
+}
+
+input[type=submit] {
+	margin-top:5px;
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family:"Open Sans Light";
+    margin-bottom:10px;
+
+}
+
+input[type=submit]:hover {
+	background-color:#add8e6;
+    color: #6D6D6D;
+    border-bottom:3px solid #e6add8;
+    margin-bottom:7px;
+}
+input[type='file'] {
+  display: none;
+}
+#adotarbtn{
+  font-size:20px;
+  float:right;
+}
+.legenda{
+	margin-right:10px;
+	margin-left:10px;
+	font-weight:normal;
+}
+fieldset a {
+	font-size:13px;
+}
+main {
+    margin-bottom:  100px;
+
+}
+
+/* Aqui tá todo conteúdo da página, centralizado já*/
+.content {
+
+	 width:auto;
+  display:flex;
+  align-items: center;
+    justify-content: center;
+
+}
+/* Essa classe vai centralizar as imagens desde que elas estejam dentro de uma div */
+.center_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* aplica efeitos diretos nos objetos imgs que forem de Id doggo, se quiser pode mudar por classe */
+#doggo {
+    border-radius: 50%;
+    width:120px;
+	height:120px;
+	display: inline-block;
+	background-color:#f2ebe3;
+	border:1px solid #dcd5cd;
+	padding:3px;
+}
+.formulario #btnCadastrar{
+  float:right;
+}
+.formulario #btnMensagem{
+  float:right;
+}
+.card  {
+    float: left;
+    margin:30px;
+    margin-top: 30px;
+    padding: 10px 5px 10px;
+    width: 200px;
+    border: 1px solid pink;
+
+}
+footer p{
+	font-size:11px;
+}
+#contato{
+	margin-bottom:100px;
+}
+form {
+	margin-top:100px;
+}
+#busca {
+	position: absolute;
+	top:300px;
+	width: auto;
+	height: 700px;
+	float:right;
+ 	margin-top:9em;
+}
+#divBusca {
+	text-align:center;
+ 	background-color:#2F4F4F;
+ 	border:solid 1px;
+ 	border-radius:15px;
+	width:300px;
+
+}
+
+#txtBusca {
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+.main{
+	position:absolute;
+	top:300px;
+    margin-bottom:  100px;
+    background-color: #ffaaec;
+    margin: 100px auto;
+	background-color: transparent;
+
+}
+.doacao{
+	width:auto;
+	display:flex;
+	align-items: center;
+    justify-content: center;
+
+}
+.adocao{
+
+}
+
+.especie {
+	text-align:center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.especie:after {
+  content: "";
+  clear: both;
+}
+
+.especies {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  float: left;
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.especies + .especies {
+  margin-left: 25px;
+}
+.especies label {
+  background: #fff no-repeat center center;
+  bottom: 1px;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  left: 1px;
+  position: absolute;
+  right: 1px;
+  text-indent: 100%;
+  top: 1px;
+  white-space: nowrap;
+}
+
+.catchoro label {
+  background-image: url(../assets/catchoro.png);
+}
+
+.gato label {
+  background-image: url(../assets/gato.png);
+}
+.especie input:hover + label {
+  outline: 2px dotted #21b4d0;
+}
+
+.especie input:checked + label {
+  outline: 4px solid #21b4d0;
+}
+
+.especie input:checked + label:after {
+  background: url(https://dl.dropbox.com/s/vm6hpxjqbupy1xv/checked.png);
+  bottom: -10px;
+  content: "";
+  display: inline-block;
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  width: 20px;
+}
+.especieparagrafo{
+	margin:0;
+	margin-bottom:5px;
+	text-align:center;
+}
+.aviso{
+	font-size:10px;
+	text-align:center;
+
+}
+.selecaoespecie{
+	float: left;
+    margin:10px;
+    padding: 5px 150px 15px;
+    width: auto;
+}
+textarea{
+	resize: none;
+    overflow: hidden;
+    min-height: 200px;
+    width:100%;
+    font-size:15px;
+	font-family:"Open Sans Light";
+	margin:2px;
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+p label {
+  	margin-top:5px;
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family:"Open Sans Light";
+    margin-bottom:10px;
+}
+p label:hover{
+	background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid pink;
+}
+.imagemad{
+  margin:0 1px;
+  border:1px solid pink;
+  width:100px;
+  height:100px;
+}
+.adocao{
+  width:auto;
+  height:auto;
+  padding-top:50px;
+  justify-content:center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+  padding-bottom:50px;
+}
+table{
+  border:2px solid pink;
+  margin:5px;
+}
+table img{
+  border:1px solid pink;
+}
+.anunciosholder{
+  padding-left:40%;
+  padding-right:40%;
+  margin-bottom:-45px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.anunciosholder fieldset{
+  padding-right:auto;
+  padding-left:auto;
+  border: 3px solid pink;
+}
+.anuncio{
+  width:40rem;
+}
+.anuncioimg{
+  display:inline-block;
+  border: 2px solid pink;
+  width: 150px;
+  height: 150px;
+  background-image: url("../assets/catchoro.jpg");
+  background-size: 100%;
+  background-position: center center;
+  float: left;
+  display: inline-block;
+  background-repeat:no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+
+
+.imagensdoanuncio {
+  border: 2px solid pink;
+  width: 150px;
+  height: 150px;
+  background-image: url("../assets/catchoro.jpg");
+  background-position: center;
+	display: inline-block;
+  background-repeat:no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.imagens{
+  width:50rem;
+}
+.imgs{
+	width: 208px;
+}
+
+
+.imagensdoanuncio {
+  display:inline-block;
+  border: 2px solid pink;
+  width: 100px;
+  height: 100px;
+  background-image: url("../assets/catchoro.jpg");
+  background-size: 100%;
+  transition: background-size 1s;
+  -webkit-transition: background-size 1s;
+  background-position: center center;
+  float: left;
+}
+.imagensdoanuncio:hover {
+  background-size: 150%;
+
+}
+.destaque{
+	width: 204px;
+	height: 200px;
+	float: left;
+}
+
+.destaque:hover{
+	float: left;
+	width: 204px;
+	height: 200px;
+}
+
+.desc{
+  margin-left:28%;
+
+}
+.desc p{
+	text-align: justify;
+}
+.desc span{
+	float: left;
+}
+.desc h1,h2,h3,h6{
+	text-align: left;
+}
+.desc1{
+  margin-left:28%;
+
+}
+.desc1 p{
+  text-align: justify;
+}
+.desc1 span{
+  float: left;
+}
+.desc1 h1,h2,h6{
+  text-align: left;
+}
+
+.botao{
+	border: solid black;
+}
+.raca{
+  margin-top:-20px;
+}
+main{
+  padding-right:20%;
+  padding-left:20%;
+}
+.contato{
+  width:150px;
+  height:150px;
+}
