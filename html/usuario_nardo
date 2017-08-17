@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+	<head>
+    	<title>Pet Connect</title>
+    	<link rel="stylesheet" type="text/css" href="../css/style.css">
+			<link rel="stylesheet" href="../css/responsive-css.css">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="shortcut icon" href="../ico/favicon.ico" >
+			<meta charset="utf-8">
+        <script type="text/javascript" src="../js/fnNumero.js"></script>
+	</head>
+	<body>
+		<header class ="header">
+
+			<div class="logo">
+
+                    <a href="home_deslogado.php"><img id="logo" src="../assets/LOGO.png" alt=""></a><br><br>
+			 	<nav id="menu">
+			 		<ul>
+                        <li><a href="contato.php" class="link" id="contato">Quem somos</a></li>
+                        <li><a href="sessao_sair.php" class="link">Sair</a></li>
+			 		</ul>
+			 	</nav>
+			 </div>
+
+		</header>
+		<?php
+		$casal1 ="casal5";
+		$casal2="casal4";
+		$casal3="casal3";
+		$casal4="casal2";
+		$casal5 ="casal1";
+		$usuario ="nardo";
+		?>
+	   	<main id="mainanuncio">
+            <div class='formulario2'>
+       			<form>
+       			<h1 class="raca">Cachorro</h1>
+		            <fieldset>
+		                <legend><h3 class ='legendacontato'>Casal de Huskies Siberianos Amáveis</h3></legend>
+		                <div class='imagens'>
+							<div class='imgs'>
+								<a href='../assets/<?php echo $casal5?>.jpg' target='_blank'><div style="background-image: url(../assets/<?php echo $casal5?>.jpg), url(../assets/catchoro2.jpg);" class='imagensdoanuncio destaque' ></div></a>
+								<a href='../assets/<?php echo $casal4?>.jpg' target='_blank'><div style="background-image: url(../assets/<?php echo $casal4?>.jpg), url(../assets/catchoro.jpg);" class='imagensdoanuncio'></div></a>
+								<a href='../assets/<?php echo $casal3?>.jpg' target='_blank'><div style="background-image: url(../assets/<?php echo $casal3?>.jpg), url(../assets/catchoro.jpg);" class='imagensdoanuncio'></div></a>
+								<a href='../assets/<?php echo $casal2?>.jpg' target='_blank'><div style="background-image: url(../assets/<?php echo $casal2?>.jpg), url(../assets/catchoro.jpg);" class='imagensdoanuncio'></div></a>
+								<a href='../assets/<?php echo $casal1?>.jpg' target='_blank'><div style="background-image: url(../assets/<?php echo $casal1?>.jpg), url(../assets/catchoro.jpg);" class='imagensdoanuncio'></div></a>
+							</div>
+						</div>
+						<div class='desc'>
+							<h1>Sansão e Dalila</h1>
+							<h2>Huskies Siberianos</h2>
+							<p>Talvez você esteja perdidamente apaixonado, ou talvez você esteja solteiro e pronto para se juntar com alguém à um bom tempo. De qualquer maneira, o que quer que você tenha rolando nesse momento, sentimos em lhe dizer, não se compara ao relacionamento desses cachorrinhos. <br>Moro no Camilópolis próximo à Igreja São Camilo de Lellis.<br>Whatsapp: 11947943776
+							</p>
+							<span>19/06/2017</span>
+							<input id="adotarbtn" type="submit" value="Adotar">
+						</div>									
+		            </fieldset>
+	            </form>
+	        </div>
+	        <div class='formulario2'>
+	            <form>
+	            	<fieldset>
+	            		<legend>Leonardo Monaco</legend>
+	            		<div class='imagens'>
+							<div class='imgs'>
+								<a href='usuario_<?php echo $usuario;?>.php' target='_blank'><div style="background-image: url(../assets/<?php echo $usuario?>.jpg), url(../assets/usuario.jpg);" class='imagensdoanuncio contato' ></div></a>
+							</div>
+						</div>
+						<div class='desc'>
+							<h2>Endereço: Rua Clara, 268 - Camilópolis/Santo André-SP</h2>
+							<h2>Telefone: (11)4997-8533</h2>
+							<h2>Celular: (11)94794-3776</h2>
+						</div>
+	            	</fieldset>
+	            </form>
+            </div>
+    </main>
+
+
+    	<footer>
+    		<p>Site criado pelo grupo favorito do Sr. Tadeu</p>
+
+    	</footer>
+	</body>
+
+
+</html>
